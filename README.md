@@ -23,6 +23,7 @@ So I made this program, to caculate the priority conveniently.
 sudo dpkg -i chromium-chromedriver_65.0.3325.181-0ubuntu0.14.04.1_armhf.deb
 #### 2-4. Install python packages with following commands:
 pip3 install selenium
+
 pip3 install pyperclip
 ### 3. Compile and run get_user_info.c and give your timetable information
 ### 4. Run python file with following commands:
@@ -32,6 +33,7 @@ Then you will get the results of calculation
 
 ## Where can people get more help?
 Please refer to this website when you have trouble while installing chromium driver. https://m.blog.naver.com/dsz08082/221877958842
+
 If you need more help, mail me yeob@handong.ac.kr
 
 ## Presentation video
