@@ -25,10 +25,11 @@ int main(void){
 
     printf("\n");
 
-    printf("Hello, %s. How many subjects will you register in this semester? ", user.name);
+    printf("Hello, %s. How many subjects will you register in this semester? ", user);
     scanf("%d", &sub_num);
     for(int i=0; i<sub_num; i++){
-        printf("%d번째 과목의 과목 코드를 입력해주세요 : ", i+1);
+	if(i=0) printf("Input the code of 1st subject : ");
+        printf("Input the code of %dth subject : ", i+1);
         scanf("%s", temp.code);
         printf("수강하려는 분반을 입력해주세요 : ");
         scanf("%d", &temp.section);
