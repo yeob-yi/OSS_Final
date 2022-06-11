@@ -4,7 +4,9 @@ import pyperclip
 
 
 # 1. 히즈넷 접속
-driver = webdriver.Chrome('/Users/yeob/Downloads/chromedriver1')
+options = webdriver.Chromeoptions()
+options.add_argument('headless')
+driver = webdriver.Chrome('/usr/lib/chromium-browser/chromedriver', options=options)
 driver.get('https://hisnet.handong.edu')
 driver.switch_to.frame("MainFrame")
 time.sleep(1)
