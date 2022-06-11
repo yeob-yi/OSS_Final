@@ -40,7 +40,7 @@ int main(void){
         }
     }
 
-    printf("priority  subject_code  section  current_num  max_num  competitive\n");
+    printf("priority  subject_code  section  current_num  max_num  competition rate\n");
     // printf("a  ~b~  ~c~  ~d~  ~e~");
     for(i=0; i<sub_num; i++){
         for(j=0; j<sub_num; j++){
